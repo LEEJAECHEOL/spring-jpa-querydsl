@@ -17,8 +17,6 @@ import java.util.List;
  * 와깉 import 되는데 아래처럼 변경하면 QUser.user 를 user로 사용이 가능함
  * import static com.example.demo.business.user.entity.QUser.user;
  *
- * QuerydslRepositorySupport를 사용하면
- * 항상 2개의 Repository를 의존성으로 받아야 한다
  */
 
 @Repository
